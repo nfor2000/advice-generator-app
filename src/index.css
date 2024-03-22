@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+     font-family: "Manrope", sans-serif;
+     line-height: 1.5;
+     font-weight: 400;
+
+     color-scheme: light dark;
+
+     font-synthesis: none;
+     text-rendering: optimizeLegibility;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+}
+
+.shadow-uniform:hover {
+     box-shadow: 0px 0px 30px #62FF9B;
+}
