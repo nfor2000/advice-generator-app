@@ -8,6 +8,7 @@ function App() {
      const [advice , setAdvice] = useState(null);
      const [loading, setLoading] = useState(true);
      const [error, setError] = useState('');
+     
      async function fetchAdvice ()
      {
           try{
